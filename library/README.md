@@ -13,6 +13,7 @@ public class TestCommand extends SpigotCommand<Player> {
 
     public TestCommand() {
         super("yeet");
+        setSenders(Player.class);
     }
 
     @Override
